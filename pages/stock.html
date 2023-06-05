@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock</title>
+
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="../image/logoLC.png" alt="Logo" class="logo" />
+      <div id="searchContainer">
+        <input type="text" id="searchInput" placeholder="Buscar por numero" />
+        <button id="searchButton">Buscar</button>
+      </div>
+      <h2>Stock</h2>
+
+      <div id="stockListContainer">
+        <div id="stockList" class="stock-list"></div>
+      </div>
+
+      <!-- <button id="adminLoginButton">Iniciar sesión como administrador</button> -->
+    </div>
+
+    <!-- Incluir los archivos de Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="../script/firebaseConfig.js"></script>
+    <script src="../script/stock.js"></script>
+    <script src="../script/adminLogin.js"></script>
+  </body>
+</html>

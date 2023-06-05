@@ -1,0 +1,132 @@
+{
+  "Materiales": [
+    {
+      "cantidad": 2,
+      "nombre": "Flexi LAF 23 oil"
+    },
+    {
+      "cantidad": 48,
+      "nombre": "Flexi LAF 24 oil"
+    },
+    {
+      "cantidad": 29,
+      "nombre": "Flexi LAF 17.5 EVOH"
+    },
+    {
+      "cantidad": 5,
+      "nombre": "Flexi BLT 19 BLT"
+    },
+    {
+      "cantidad": 12,
+      "nombre": "Flexi BLT 25 BLT"
+    },
+    {
+      "cantidad": 0,
+      "nombre": "Flexi BLT 24 evoh"
+    },
+    {
+      "cantidad": 6,
+      "nombre": "Flexi BLT 24"
+    },
+    {
+      "cantidad": 4,
+      "nombre": "Liners Cajas cerradas"
+    },
+    {
+      "cantidad": 1,
+      "nombre": "Liners Liners Sueltos"
+    },
+    {
+      "cantidad": 48,
+      "nombre": "Caños Caños x 5 LAF"
+    },
+    {
+      "cantidad": 7,
+      "nombre": "Caños Recup"
+    },
+    {
+      "cantidad": 4,
+      "nombre": "Caños Caños x 5 pintados de negro LAF"
+    },
+    {
+      "cantidad": 0,
+      "nombre": "Caños Caño galvanizado x 6"
+    },
+    {
+      "cantidad": 18,
+      "nombre": "Caños Caño galvanizado x 5"
+    },
+    {
+      "cantidad": 54,
+      "nombre": "Caños Caños reflex"
+    },
+    {
+      "cantidad": 28,
+      "nombre": "Caños Juegos Parrilla 'H' + 3 caños"
+    },
+    {
+      "cantidad": 3,
+      "nombre": "Mamparas Amarillas"
+    },
+    {
+      "cantidad": 27,
+      "nombre": "Mamparas Amarillas 'Juice'"
+    },
+    {
+      "cantidad": 12,
+      "nombre": "Mamparas Mamp negra 6 ab"
+    },
+    {
+      "Cantidad": 0,
+      "nombre": "Mamparas Mamp negra 5 ab"
+    },
+    {
+      "cantidad": 55,
+      "nombre": "Mamparas Mampara de carton LAF"
+    },
+    {
+      "cantidad": 6,
+      "nombre": "Mamparas Mampara de carton BLT"
+    },
+    {
+      "cantidad": 12,
+      "nombre": "Mamparas Mampara BLT 'Azul'"
+    },
+    {
+      "cantidad": 2,
+      "nombre": "Heaters Blt abierto"
+    },
+    {
+      "cantidad": 12,
+      "nombre": "Heaters Heater de goma"
+    },
+    {
+      "cantidad": 10,
+      "nombre": "Heaters Heater. Braid abierto"
+    },
+    {
+      "cantidad": 10,
+      "nombre": "Heaters Heater Braid Cerado"
+    },
+    {
+      "cantidad": 24,
+      "nombre": "Carton Carton chico"
+    },
+    {
+      "cantidad": 37,
+      "nombre": "Carton Carton grande"
+    },
+    {
+      "cantidad": 12,
+      "nombre": "Manta Manta"
+    },
+    {
+      "cantidad": 40,
+      "nombre": "Cintas Cintas reflex"
+    },
+    {
+      "cantidad": 60,
+      "nombre": "Cintas Cinta transparente"
+    }
+  ]
+}

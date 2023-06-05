@@ -1,0 +1,287 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #0b0713;
+}
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.material-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.submaterial-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.submaterial-quantity {
+  margin-left: 10px;
+}
+#splashScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+}
+
+#splashScreen img {
+  max-width: 200px;
+}
+
+#splashScreen .loading {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.login-container {
+  display: none;
+}
+
+/*Grid de productos stock*/
+.stock-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.stock-list h3 {
+  white-space: normal;
+  overflow-wrap: break-word;
+  font-size: 25px; /* Ajusta el tamaño de fuente */
+  margin-bottom: 2px;
+  color: #2a9e13;
+}
+
+.stock-list ul {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.stock-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+#stockList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.material-item {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #4d0dd9;
+  border-radius: 5px;
+  background-color: #eae8ee;
+}
+
+.material-item h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.material-item ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.material-item li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.material-item li strong {
+  color: #0000ff;
+}
+
+#adminLoginButton {
+  margin-top: 20px;
+}
+#materialName {
+  color: blue;
+  font-size: 20px;
+}
+
+#subMaterialName {
+  font-weight: bold;
+  color: rgb(15, 14, 14);
+  font-size: 20px;
+}
+
+#subMaterialQuantity {
+  color: rgb(18, 131, 18);
+  font-size: 14px;
+}
+#searchInput {
+  color: #0b0713;
+}
+.logo {
+  width: 500px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Ajusta la altura según tus necesidades */
+  margin: 25px; /* Ajusta el margen superior según tus necesidades */
+  /* Otros estilos personalizados para el logo */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Pantallas de escritorio y laptops */
+  .stock-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .material-item {
+    width: calc(
+      100% / 4
+    ); /* Mostrar en 4 columnas en pantallas de al menos 1024px de ancho */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablets */
+  .stock-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .material-item {
+    width: calc(
+      100% / 3
+    ); /* Mostrar en 3 columnas en pantallas de al menos 768px de ancho */
+  }
+}
+@media screen and (max-width: 480px) {
+  .stock-list {
+    overflow-x: auto; /* Agregar desplazamiento horizontal en dispositivos móviles */
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Celulares */
+  .stock-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+  }
+
+  .stock-list h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .stock-list ul {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .stock-list {
+    width: 100%;
+    padding: 0 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 463px) {
+  .stock-list {
+    overflow: visible;
+  }
+}
