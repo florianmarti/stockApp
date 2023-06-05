@@ -249,7 +249,7 @@ li {
   }
   .logo {
     height: auto; /* Ajusta la altura del logo */
-    width: 300px; /* Ajusta la anchura del logo */
+    width: 200px; /* Ajusta la anchura del logo */
     /* Otros estilos adicionales si los necesitas */
   }
 }
