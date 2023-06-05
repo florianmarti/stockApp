@@ -247,6 +247,11 @@ li {
     overflow-x: auto; /* Agregar desplazamiento horizontal en dispositivos móviles */
     padding: 0 20px;
   }
+  .logo {
+    height: 45px; /* Ajusta la altura del logo */
+    width: auto; /* Ajusta la anchura del logo */
+    /* Otros estilos adicionales si los necesitas */
+  }
 }
 
 @media screen and (max-width: 767px) {
