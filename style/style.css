@@ -248,8 +248,8 @@ li {
     padding: 0 20px;
   }
   .logo {
-    height: 45px; /* Ajusta la altura del logo */
-    width: auto; /* Ajusta la anchura del logo */
+    height: auto; /* Ajusta la altura del logo */
+    width: 300px; /* Ajusta la anchura del logo */
     /* Otros estilos adicionales si los necesitas */
   }
 }
